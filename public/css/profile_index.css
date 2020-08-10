@@ -1,0 +1,7 @@
+#post_image{
+    opacity: 0.95;
+}
+
+#post_image:hover{
+    opacity: 1;
+}

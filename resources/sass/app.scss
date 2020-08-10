@@ -1,0 +1,36 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// HERE I CAN PUT MY OWN CHANGES FOR APP.BLADE
+
+//NAVBAR
+#header {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+#header-wrap {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+// a TAGS
+
+a{
+    color: #000;
+}
+
+a:hover{
+    color: #383854;
+    text-decoration: none;
+}
